@@ -115,4 +115,16 @@ VALUES
 
 SELECT * FROM ORDERS;
 
+select * from customer;
+
+/* display the name of the customer whose customer num is 148*/
+
+select customer_name from customer;
+
+select customer_name from customer where customer_num = '148';
+
+select customer_num, customer_name from customer where city = 'Grove';
+
+
+
 
